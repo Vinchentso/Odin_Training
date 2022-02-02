@@ -1,0 +1,131 @@
+body {
+  margin: 0;
+  font-family: "Italiana", serif;
+  display: grid;
+  /*justify-items: center;*/
+  padding: 0px;
+  /*box-sizing: border-box;*/
+  width: 100%;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+.main {
+  display: grid;
+  justify-items: center;
+  width: 100%;
+  height: 100%;
+  background-size: auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+  background-size: 100% 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)),
+    url("https://images.unsplash.com/photo-1565523925028-812f891b0e8c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+}
+
+.container {
+  /*background-color: #91908e;*/
+  background-color: rgba(178, 179, 182, 0.4);
+  display: grid;
+  border-radius: 1%;
+  width: 50%;
+  height: fit-content;
+}
+
+.logo {
+  width: 150px;
+  margin: 0 auto;
+  padding-top: 10px;
+  border-radius: 10%;
+}
+
+.menu {
+  font-family: "Luxurious Roman", cursive;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-items: center;
+  justify-content: space-around;
+  padding-left: 0;
+}
+
+h1 {
+  margin: 0 auto;
+  padding: 30px;
+  color: white;
+}
+h2 {
+  margin: 0 auto;
+  color: white;
+  padding-bottom: 20px;
+  text-decoration: underline;
+}
+
+.lasagna {
+  display: grid;
+}
+.spaghetti {
+  display: grid;
+}
+.penne {
+  display: grid;
+}
+li {
+  display: grid;
+  width: 200px;
+  word-wrap: break-word;
+}
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.lasagna img {
+  border-radius: 10%;
+}
+a > li {
+  padding-top: 10%;
+  padding-bottom: 20%;
+  text-align: center;
+  font-size: 100%;
+}
+
+.spaghetti img {
+  border-radius: 10%;
+}
+
+.penne img {
+  border-radius: 10%;
+}
+
+.one {
+  color: red;
+}
+
+@media (max-width: 1250px) {
+  .logo {
+    width: 150px;
+    margin: 0 auto;
+    padding-top: 2px;
+    border-radius: 10%;
+  }
+
+  .menu {
+    font-family: "Luxurious Roman", cursive;
+    display: grid;
+    grid-template-columns: auto;
+    justify-items: center;
+    margin: 0 auto;
+  }
+
+  a {
+    margin: 0 auto;
+  }
+
+  h1 {
+    font-size: 150%;
+  }
+
+  h2 {
+    font-size: 100%;
+  }
+}
